@@ -1,0 +1,45 @@
+/* Styling the canvas with a neon effect */
+#canvas {
+    background-color: white;
+    display: block;
+	margin: auto;
+	position: relative;
+    box-shadow: 0 0 20px white,
+			    0 0 30px white,
+				0 0 40px white,
+				0 0 50px #ff77ff,
+				0 0 70px #ff77ff,
+				0 0 80px #ff77ff;
+}
+
+/* Styling the header */
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #453673;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+/* Styling the background of the page */
+body {
+    background-color: #cbc3e3;
+    margin-top: 100px;
+}
+
+/* Style and position of the score message */
+#scoreAI, #scorePlayer {
+    margin-top: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #453673;
+    text-align: center;
+}
+
+/* Style and position of the game over message */
+#gameOverAI, #gameOverPlayer {
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #453673;
+    text-align: center;
+}
